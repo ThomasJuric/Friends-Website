@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(148, 148, 148);
+}
+h1 {
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+}
+a {
+    color: inherit;
+}
+h3 {
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+}
+.subtitle {
+    text-align: center;
+    color: rgba(240, 248, 255, 0.685);
+    font-family: 'Jost', sans-serif;
+}
+.color-nav {
+    background-color: rgb(46, 44, 129);
+}
+.mainCard {
+    background-color: rgb(116, 11, 11);
+    color: rgba(255, 255, 255, 0.842);
+    width: 95%;
+    border-width: 0.5px;
+    border-color: black;
+    display: flex;
+}
+
+.myCard {
+    padding-top: 5%;
+}
+.underline {
+    background-color: rgba(240, 248, 255, 0.452);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.photoDescription {
+    padding-top: 4%;
+    padding-left: 2%;
+    font-family: 'Jost', sans-serif;
+}
+.column {
+    float: left;
+    padding-left: 10px;
+    z-index: 4;
+}
+.row::after {
+    clear: both;
+    display: table;
+    z-index: 4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textForCard {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+}
+.contactInfo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 655px) {
+    .myCard {
+        padding-top: 16%;
+    }
+}
