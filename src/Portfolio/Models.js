@@ -9,7 +9,7 @@ import Crate from "./J'Lenns Photos/Crate1.png";
 import Lizard from "./J'Lenns Photos/lizard.mp4";
 import Barrel from "./J'Lenns Photos/Barrel.png";
 import Hellboy from "./J'Lenns Photos/Hellboy_Demo.mp4";
-import Mentor from "./J'Lenns Photos/MentorDemoReel_JLenn_James.mp4";
+import Mentor from "./J'Lenns Photos/Mentor_DemoReel.mp4";
 import {Navbar, Nav, Card} from 'react-bootstrap';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
