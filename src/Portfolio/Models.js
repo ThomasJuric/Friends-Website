@@ -87,19 +87,19 @@ export default function Models() {
       <Carousel responsive={responsive}>
          <div className = "models"> 
            <h5>Hellboy Demo</h5>
-           <video controls loop>
+           <video controls playsinline autoplay loop muted>
              <source src = {Hellboy} type = "video/ogg"></source>
            </video>
         </div>
         <div className = "models"> 
            <h5>Perspective View</h5>
-           <video controls loop>
+           <video controls playsinline autoplay loop muted>
              <source src = {Mentor} type = "video/ogg"></source>
            </video>
         </div>
          <div className = "models"> 
            <h5>3D View of Lizard</h5>
-           <video controls loop>
+           <video controls playsinline autoplay loop muted>
              <source src = {Lizard} type = "video/ogg"></source>
            </video>
         </div> 
