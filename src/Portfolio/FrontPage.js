@@ -48,10 +48,6 @@ return (
               <h3>Jojolion Poster</h3>
               <img src ={Jolilon} alt = "Jojolion Poster"></img>
         </div>
-        <div>
-              <h4>Room (One-Point Perspective)</h4>
-              <img src ={Room} alt = "Room (One-Point Perspective)"></img>
-        </div>
       </Carousel>
       </Card.Body>
       <Card.Footer className = "mx-auto">
