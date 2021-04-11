@@ -5,6 +5,7 @@ import Jolilon from "./J'Lenns Photos/Jojolion.jpg";
 import Room from "./J'Lenns Photos/roomDesign.jpg";
 import Friends from "./J'Lenns Photos/Gang.jpg";
 import Anime from "./J'Lenns Photos/AnimeCollage.jpg";
+import John_Ware from "./J'Lenns Photos/JLenn_James_Illustration.jpg" 
 import {Navbar, Nav, Card} from 'react-bootstrap';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -30,6 +31,10 @@ return (
         <div>
             <h3>One-Piece Cosplay</h3>
             <img src ={SuperHero} alt = "One-Piece Cosplay"></img>
+        </div>
+        <div>
+            <h3>John Ware Illustration</h3>
+            <img src ={John_Ware} alt = "John Ware Illustration"></img>
         </div>
         <div>
               <h3>Anime Collage</h3>

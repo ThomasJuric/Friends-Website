@@ -2,6 +2,7 @@ import React from 'react';
 import './FrontPage.css'
 import Animation from "./J'Lenns Photos/animation.mp4";
 import Pacman from "./J'Lenns Photos/pacman.mp4";
+import Baseball from "./J'Lenns Photos/JLenn_James_Throwing.mp4"
 import {Navbar, Nav, Card, Row} from 'react-bootstrap';
 const Animations = (props) => {
     
@@ -49,6 +50,21 @@ return (
             </Card.Text>
         </Card>
       </Row>
+      <Row>
+        <Card className = "mainCard vertical-center horizontal-center mx-auto">
+          <Card.Body>
+              <Card.Title className = "mx-auto"><h3>Baseball Throw</h3></Card.Title>
+              <video controls>
+                <source src = {Baseball} type = "video/ogg"></source>
+              </video>
+              
+          </Card.Body>
+          <Card.Text className = "photoDescription">
+                By: J'Lenn James
+            </Card.Text>
+        </Card>
+      </Row>
+      
       </Card.Body>
       <Card.Footer className = "mx-auto">
             <span>
