@@ -6,11 +6,7 @@ import Treasure from "./J'Lenns Photos/Treasure.png";
 import Desk from "./J'Lenns Photos/Desk.png";
 import LivingRoom from "./J'Lenns Photos/Livingroom2.png";
 import Crate from "./J'Lenns Photos/Crate1.png";
-import Lizard from "./J'Lenns Photos/lizard.mp4";
 import Barrel from "./J'Lenns Photos/Barrel.png";
-import Hellboy from "./J'Lenns Photos/Hellboy_Demo.mp4";
-import Mentor from "./J'Lenns Photos/Mentor_DemoReel.mp4";
-import Box_Lift from "./J'Lenns Photos/BoxLift_JLenn_James.mp4";
 import {Navbar, Nav, Card} from 'react-bootstrap';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -86,32 +82,38 @@ export default function Models() {
       </Carousel>
       <h4><u>Live Models</u></h4>
       <Carousel responsive={responsive}>
-         <div className = "models"> 
+        <div className = "modelsVideo"> 
+           <h5>Creature Sculpt</h5>
+           <iframe src="https://www.youtube.com/embed/Vp0hpnrQRgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className = "modelsVideo"> 
+           <h5>3D Construction</h5>
+           <iframe src="https://www.youtube.com/embed/zlpMvQ5yHvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className = "modelsVideo"> 
            <h5>Hellboy Demo</h5>
-           <video controls playsinline autoplay loop muted>
-             <source src = {Hellboy} type = "video/ogg"></source>
-           </video>
+           <iframe src="https://www.youtube.com/embed/L8c40qAhla0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div className = "models"> 
-           <h5>Perspective View</h5>
-           <video controls playsinline autoplay loop muted>
-             <source src = {Mentor} type = "video/ogg"></source>
-           </video>
-        </div>
-        <div className = "models"> 
+        <div className = "modelsVideo"> 
            <h5>Box Lift</h5>
-           <video controls playsinline autoplay loop muted>
-             <source src = {Box_Lift} type = "video/ogg"></source>
-           </video>
-        </div>
-         <div className = "models"> 
-           <h5>3D View of Lizard</h5>
-           <video controls playsinline autoplay loop muted>
-             <source src = {Lizard} type = "video/ogg"></source>
-           </video>
+           <iframe src="https://www.youtube.com/embed/Zp1w0iVMkCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> 
-         
-         
+        <div className = "modelsVideo"> 
+           <h5>Baseball Throw</h5>
+           <iframe src="https://www.youtube.com/embed/9kY-L6Rfbyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+         <div className = "modelsVideo"> 
+           <h5>What's in the box?</h5>
+           <iframe src="https://www.youtube.com/embed/L9eB-Vzr4yY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className = "modelsVideo"> 
+           <h5>3D View of Lizard</h5>
+           <iframe src="https://www.youtube.com/embed/ZE0IDi5eM6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className = "modelsVideo"> 
+           <h5>After Effects Example</h5>
+            <iframe src="https://www.youtube.com/embed/ILUpHUfKYIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </Carousel>
       </Card.Body>
        <Card.Footer className = "mx-auto">
