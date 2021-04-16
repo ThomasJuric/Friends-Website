@@ -23,6 +23,11 @@ return (
       <Card.Subtitle className="mb-3 subtitle">A Collection of My Animations</Card.Subtitle>
       <hr className = "underline"></hr>
       <Row>
+      <div className = "modelsVideo"> 
+          <iframe src="https://www.youtube.com/embed/Quz2BeGnlbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </Row>
+      {/* <Row>
         <Card className = "mainCard vertical-center horizontal-center mx-auto">
           <Card.Body>
               <Card.Title className = "mx-auto"><h3>Skate-Boarding</h3></Card.Title>
@@ -30,9 +35,7 @@ return (
                 <source src = {Animation} type = "video/ogg"></source>
               </video>
           </Card.Body>
-          <Card.Text className = "photoDescription">
-                By: J'Lenn James
-              </Card.Text>
+          
         </Card>
       </Row>
       <Row>
@@ -48,14 +51,9 @@ return (
                 By: J'Lenn James
             </Card.Text>
         </Card>
-      </Row>
+      </Row> */}
       
       </Card.Body>
-      <Card.Footer className = "mx-auto">
-            <span>
-              Developed By <a href = "https://thomasjuric.com/"><u><b>Thomas Juric</b></u></a> &copy;
-            </span>
-      </Card.Footer>
     </Card>
   </div>  
   </div>  

@@ -48,11 +48,6 @@ return (
             </Card.Body>
         </Card>
       </Card.Body>
-      <Card.Footer className = "mx-auto">
-            <span>
-                Developed By <a href = "https://thomasjuric.com/"><u><b>Thomas Juric</b></u></a> &copy;
-            </span>
-      </Card.Footer>
     </Card>
   </div>  
   </div>  
