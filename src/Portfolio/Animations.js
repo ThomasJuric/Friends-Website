@@ -1,7 +1,7 @@
 import React from 'react';
 import './FrontPage.css'
-import Animation from "./J'Lenns Photos/animation.mp4";
-import Pacman from "./J'Lenns Photos/pacman.mp4";
+// import Animation from "./J'Lenns Photos/animation.mp4";
+// import Pacman from "./J'Lenns Photos/pacman.mp4";
 import {Navbar, Nav, Card, Row} from 'react-bootstrap';
 const Animations = (props) => {
     
