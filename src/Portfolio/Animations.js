@@ -22,10 +22,20 @@ return (
       <Card.Title className = "mx-auto" ><h1>Animations</h1></Card.Title>
       <Card.Subtitle className="mb-3 subtitle">A Collection of My Animations</Card.Subtitle>
       <hr className = "underline"></hr>
-      <Row>
+      <Row className = "anim">
       <div className = "modelsVideo"> 
           <iframe src="https://www.youtube.com/embed/Quz2BeGnlbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+      </Row>
+      <Row className = "anim">
+        <div className = "modelsVideo"> 
+           <iframe src="https://www.youtube.com/embed/Zp1w0iVMkCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+      </Row>
+      <Row className = "anim">
+        <div className = "modelsVideo"> 
+            <iframe src="https://www.youtube.com/embed/9kY-L6Rfbyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div> 
       </Row>
       {/* <Row>
         <Card className = "mainCard vertical-center horizontal-center mx-auto">

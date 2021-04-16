@@ -91,12 +91,7 @@ export default function Models() {
         <div className = "modelsVideo"> 
            <iframe src="https://www.youtube.com/embed/L8c40qAhla0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div className = "modelsVideo"> 
-           <iframe src="https://www.youtube.com/embed/Zp1w0iVMkCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> 
-        <div className = "modelsVideo"> 
-           <iframe src="https://www.youtube.com/embed/9kY-L6Rfbyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        
          <div className = "modelsVideo"> 
            <iframe src="https://www.youtube.com/embed/L9eB-Vzr4yY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

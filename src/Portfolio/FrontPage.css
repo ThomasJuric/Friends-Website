@@ -99,6 +99,9 @@ video {
     width: 60%;
     height: 60%;
 }
+.anim {
+    padding-top: 1%;
+}
 .modelsVideo {
     /* width: 80%;
     height: 80%;
