@@ -47,6 +47,24 @@ export default function Models() {
      <Card.Body>
        <Card.Title className = "mx-auto" ><h1>Models</h1></Card.Title>
        <Card.Subtitle className="mb-3 subtitle">Collection of Models</Card.Subtitle>
+       <h4>Live Models</h4>
+      <Carousel responsive={responsive}>
+        <div className = "modelsVideo"> 
+           <iframe src="https://www.youtube.com/embed/Vp0hpnrQRgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className = "modelsVideo"> 
+           <iframe src="https://www.youtube.com/embed/zlpMvQ5yHvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className = "modelsVideo"> 
+           <iframe src="https://www.youtube.com/embed/L8c40qAhla0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+         
+        <div className = "modelsVideo"> 
+           <iframe src="https://www.youtube.com/embed/ZE0IDi5eM6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+      </Carousel>
        <h4>Still Models</h4>
       <Carousel responsive={responsive}>
       
@@ -79,28 +97,6 @@ export default function Models() {
                <h5>Barrel Model</h5>
                <img src ={Barrel} alt = "Barrel"></img>
          </div>
-      </Carousel>
-      <h4>Live Models</h4>
-      <Carousel responsive={responsive}>
-        <div className = "modelsVideo"> 
-           <iframe src="https://www.youtube.com/embed/Vp0hpnrQRgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div className = "modelsVideo"> 
-           <iframe src="https://www.youtube.com/embed/zlpMvQ5yHvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div className = "modelsVideo"> 
-           <iframe src="https://www.youtube.com/embed/L8c40qAhla0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        
-         <div className = "modelsVideo"> 
-           <iframe src="https://www.youtube.com/embed/L9eB-Vzr4yY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div className = "modelsVideo"> 
-           <iframe src="https://www.youtube.com/embed/ZE0IDi5eM6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div className = "modelsVideo"> 
-            <iframe src="https://www.youtube.com/embed/ILUpHUfKYIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
       </Carousel>
       </Card.Body>
      </Card>
